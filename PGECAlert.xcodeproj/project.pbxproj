@@ -32,14 +32,14 @@
 
 /* Begin PBXFileReference section */
 		111A1AEE1002485BA8B066A5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
-		28756D9716F92C9300848956 /* WWDCAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDCAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28756D9716F92C9300848956 /* PGECAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGECAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28756D9A16F92C9300848956 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28756D9C16F92C9300848956 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		28756D9E16F92C9300848956 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28756DA216F92C9400848956 /* WWDCAlert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WWDCAlert-Info.plist"; sourceTree = "<group>"; };
+		28756DA216F92C9400848956 /* PGECAlert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PGECAlert-Info.plist"; sourceTree = "<group>"; };
 		28756DA416F92C9400848956 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28756DA616F92C9400848956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28756DA816F92C9400848956 /* WWDCAlert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWDCAlert-Prefix.pch"; sourceTree = "<group>"; };
+		28756DA816F92C9400848956 /* PGECAlert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PGECAlert-Prefix.pch"; sourceTree = "<group>"; };
 		28756DA916F92C9400848956 /* WAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAAppDelegate.h; sourceTree = "<group>"; };
 		28756DAA16F92C9400848956 /* WAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAAppDelegate.m; sourceTree = "<group>"; };
 		28756DAC16F92C9400848956 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		28756D9816F92C9300848956 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28756D9716F92C9300848956 /* WWDCAlert.app */,
+				28756D9716F92C9300848956 /* PGECAlert.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,10 +132,10 @@
 		28756DA116F92C9400848956 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				28756DA216F92C9400848956 /* WWDCAlert-Info.plist */,
+				28756DA216F92C9400848956 /* PGECAlert-Info.plist */,
 				28756DA316F92C9400848956 /* InfoPlist.strings */,
 				28756DA616F92C9400848956 /* main.m */,
-				28756DA816F92C9400848956 /* WWDCAlert-Prefix.pch */,
+				28756DA816F92C9400848956 /* PGECAlert-Prefix.pch */,
 				28756DAC16F92C9400848956 /* Default.png */,
 				28756DAE16F92C9400848956 /* Default@2x.png */,
 				28756DB016F92C9400848956 /* Default-568h@2x.png */,
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28756D9616F92C9300848956 /* WWDCAlert */ = {
+		28756D9616F92C9300848956 /* PGECAlert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28756DBA16F92C9400848956 /* Build configuration list for PBXNativeTarget "WWDCAlert" */;
+			buildConfigurationList = 28756DBA16F92C9400848956 /* Build configuration list for PBXNativeTarget "PGECAlert" */;
 			buildPhases = (
 				28756D9316F92C9300848956 /* Sources */,
 				28756D9416F92C9300848956 /* Frameworks */,
@@ -159,9 +159,9 @@
 			);
 			dependencies = (
 			);
-			name = WWDCAlert;
+			name = PGECAlert;
 			productName = WWDCAlert;
-			productReference = 28756D9716F92C9300848956 /* WWDCAlert.app */;
+			productReference = 28756D9716F92C9300848956 /* PGECAlert.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +174,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = RMatta;
 			};
-			buildConfigurationList = 28756D9216F92C9300848956 /* Build configuration list for PBXProject "WWDCAlert" */;
+			buildConfigurationList = 28756D9216F92C9300848956 /* Build configuration list for PBXProject "PGECAlert" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -186,7 +186,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28756D9616F92C9300848956 /* WWDCAlert */,
+				28756D9616F92C9300848956 /* PGECAlert */,
 			);
 		};
 /* End PBXProject section */
@@ -321,10 +321,10 @@
 			baseConfigurationReference = 111A1AEE1002485BA8B066A5 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WWDCAlert/WWDCAlert-Prefix.pch";
-				INFOPLIST_FILE = "WWDCAlert/WWDCAlert-Info.plist";
+				GCC_PREFIX_HEADER = "WWDCAlert/PGECAlert-Prefix.pch";
+				INFOPLIST_FILE = "WWDCAlert/PGECAlert-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PGECAlert;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -335,10 +335,10 @@
 			baseConfigurationReference = 111A1AEE1002485BA8B066A5 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WWDCAlert/WWDCAlert-Prefix.pch";
-				INFOPLIST_FILE = "WWDCAlert/WWDCAlert-Info.plist";
+				GCC_PREFIX_HEADER = "WWDCAlert/PGECAlert-Prefix.pch";
+				INFOPLIST_FILE = "WWDCAlert/PGECAlert-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PGECAlert;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -347,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28756D9216F92C9300848956 /* Build configuration list for PBXProject "WWDCAlert" */ = {
+		28756D9216F92C9300848956 /* Build configuration list for PBXProject "PGECAlert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28756DB816F92C9400848956 /* Debug */,
@@ -356,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28756DBA16F92C9400848956 /* Build configuration list for PBXNativeTarget "WWDCAlert" */ = {
+		28756DBA16F92C9400848956 /* Build configuration list for PBXNativeTarget "PGECAlert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28756DBB16F92C9400848956 /* Debug */,

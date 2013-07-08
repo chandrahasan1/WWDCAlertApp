@@ -15,7 +15,7 @@
 
 #define kCacheKey @"LastFetchedWWDCWebPage"
 #define kLastAccessDate @"LastAccessedDate"
-#define kRefreshRate 120 //2 mins
+#define kRefreshRate 12000 //200 mins
 
 @interface WARefreshViewController () <CLLocationManagerDelegate>
 
@@ -44,7 +44,8 @@
     self.locationManager.delegate = self;
     
     self.dateLabel.text = @"";
-    self.url = [NSURL URLWithString:@"https://developer.apple.com/wwdc/"];
+    //self.url = [NSURL URLWithString:@"https://developer.apple.com/wwdc/"];
+    self.url = [NSURL URLWithString:@"http://pgec.appgecet.org"];//My need
     //    self.url = [NSURL URLWithString:@"http://techcrunch.com"]; //for testing
     
     self.lastFetchedWebPage = [[NSUserDefaults standardUserDefaults] objectForKey:kCacheKey];
